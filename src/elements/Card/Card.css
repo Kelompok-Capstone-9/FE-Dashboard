@@ -1,60 +1,116 @@
-.btnLogout:hover{
+.btnLogout:hover {
     background-color: var(--primary-100);
 }
-.btnLogout:active{
+
+.btnLogout:active {
     background-color: var(--primary-300);
 }
-.btnLogout{
+
+.btnLogout {
     background-color: var(--primary-400);
     width: fit-content;
 }
 
-.appDisplay:hover{
+.appDisplay:hover {
     background-color: var(--primary-100);
 }
-.appDisplay{
+
+.appDisplay {
     width: fit-content;
     text-align: center;
 }
 
-.listMenu{
+.listMenu {
     width: fit-content;
     border-radius: 20px;
 }
 
-.listMenu img{
+.listMenu img {
     border-radius: 20px;
     width: 6vw;
 }
 
-.listMenu:hover{
+.listMenu:hover {
     background-color: var(--primary-100);
 }
 
-.listMenu:active{
+.listMenu:active {
     background-color: var(--primary-400);
 }
 
-.cardTraining{
+.cardTraining {
     overflow: hidden;
 }
 
-.parentCardTraining{
+.parentCardTraining {
     box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24, 39, 75, 0.1);
     cursor: pointer;
     width: 28vw;
 }
 
-.cardTraining img{
-    width:  28vw;
+.cardTraining img {
+    width: 28vw;
     transition: 0.5s all ease-in-out;
     background-color: #151515;
 }
 
-.cardTraining:hover img{
+.cardTraining:hover img {
     transform: scale(1.2);
 }
 
-.cardTraining:active img{
+.cardTraining:active img {
     opacity: 0.35;
+}
+
+.cardDashboard {
+    
+    /* margin-top: 10%; */
+
+    width: 266px;
+    height: 117px;
+
+    background: var(--Neutral-White-0);
+    border-radius: 20px;
+}
+
+.rowContent {
+    
+   padding: 3% 9% 7% 7%;
+   /* padding: 2vh 4vh 6vh 4vh; */
+}
+
+.text1 {
+    font-size: 14px;
+    color: #0B0B0B;
+    font-weight: 700;
+}
+
+.text3 {
+    font-size: 20px;
+    color: #0B0B0B;
+    font-weight: 600;
+}
+
+.text24 {
+    font-size: 14px;
+    color: #0B0B0B;
+    font-weight: 600;
+}
+
+.text5 {
+    font-size: 10px;
+    color: var(--Neutral-White-800);
+    font-weight: 600;
+}
+
+.text6 {
+    font-size: 10px;
+    color: var(--success-900);
+    font-weight: 600;
+}
+
+.text7 {
+    font-size: 8px;
+    color: var(--Neutral-White-800);
+    font-weight: 600;
 }
