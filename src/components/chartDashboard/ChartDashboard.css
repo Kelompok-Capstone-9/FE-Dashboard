@@ -1,0 +1,78 @@
+.orderChart {
+    padding: 16px 20px 24px;
+    gap: 24px;
+    margin-top: 2%;
+    width: 403px;
+    height: 386px;
+
+    background: var(--Neutral-White-0);
+    border-radius: 10px;
+}
+
+.textOrderChart {
+    font-weight: 700;
+    font-size: 20px;
+    color: #0B0B0B;
+}
+
+.dropdown {
+    width: 85px;
+    height: 26px;
+    color: var(--Neutral-White-0);
+    background: var(--primary-600);
+    border-radius: 10px 0px;
+    font-weight: 700;
+    font-size: 10px;
+    text-align: center;
+}
+
+.selectOrder {
+    width: 100px;
+    height: 40px;
+    background: var(--primary-600);
+    border-radius: 4px 4px 0px 0px;
+}
+
+/*  */
+
+.radialBarCardDashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.spendingCost {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+
+    width: 328px;
+    height: 428px;
+    background: var(--Neutral-White-0);
+    border-radius: 10px;
+}
+
+.textSpendingCost {
+    font-weight: 700;
+    font-size: 20px;
+    color: #0B0B0B;
+}
+
+.DetailSpending {
+    width: 150px;
+}
+
+.textside {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.money {
+    font-weight: 600;
+    font-size: 10px;
+    color: var(--Danger-900);
+}

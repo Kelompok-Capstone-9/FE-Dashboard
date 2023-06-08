@@ -5,10 +5,32 @@ import dashboard1 from "../../assets/img/dashboard1.svg"
 import dashboard2 from "../../assets/img/dashboard2.svg"
 import dashboard3 from "../../assets/img/dashboard3.svg"
 import dashboard4 from "../../assets/img/dashboard4.svg"
-//import OrderChart from "../../components/chartDashboard/orderChart"
-
+import OrderChart from "../../components/chartDashboard/OrderOfflineOnline"
+import RadialBar from "../../components/ChartDashboard/RadialSpendingCost"
+import RadialBarChart from "../../components/ChartDashboard/RadialSpendingCost"
+import SpendingCost from "../../components/ChartDashboard/SpendingCost"
 
 const Dashboard = () => {
+    const radialBarChart = [
+        { 
+            level: 'Beginner', 
+            series: [95], 
+            colorBackground:'#FFEFCC',
+            colorText:'#FF7F00'
+        },
+        { 
+            level: 'Intermediate', 
+            series: [70],
+            colorBackground:'#CCCCFF',
+            colorText:'#3F3FFF'
+        },
+        { 
+            level: 'Advanced', 
+            series: [73],
+            colorBackground:'#98F2FE',
+            colorText:'#00ACFC'
+        },
+      ];
     return (
         <>
             <div className="container dashboard">
@@ -56,14 +78,10 @@ const Dashboard = () => {
                 </div>
                 <div className="row">
                     <div className="col-lg-7">
-
+                        <SpendingCost />
                     </div>
                     <div className="col-lg-5">
-                        <div className="orderChart">
-                            <p className="textOrderChart">Application  Order Chart</p>
-
-                        </div>
-                        
+                        <OrderChart />
                     </div>
                 </div>
             </div>

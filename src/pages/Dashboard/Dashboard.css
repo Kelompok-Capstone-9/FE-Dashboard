@@ -4,20 +4,3 @@
     background-color: var(--Neutral-White-100);
     font-family: 'Josefin Sans', sans-serif
 }
-
-.orderChart {
-    padding: 16px 20px 24px;
-    gap: 24px;
-    margin-top: 2%;
-    width: 403px;
-    height: 386px;
-
-    background: var(--Neutral-White-0);
-    border-radius: 10px;
-}
-
-.textOrderChart {
-    font-weight: 700;
-    font-size: 20px;
-    color: #0B0B0B;
-}
