@@ -5,10 +5,9 @@ import dashboard1 from "../../assets/img/dashboard1.svg"
 import dashboard2 from "../../assets/img/dashboard2.svg"
 import dashboard3 from "../../assets/img/dashboard3.svg"
 import dashboard4 from "../../assets/img/dashboard4.svg"
-import OrderChart from "../../components/chartDashboard/OrderOfflineOnline"
-import RadialBar from "../../components/ChartDashboard/RadialSpendingCost"
-import RadialBarChart from "../../components/ChartDashboard/RadialSpendingCost"
-import SpendingCost from "../../components/ChartDashboard/SpendingCost"
+import OrderChart from "../../components/ChartDashboard/OrderChart/OrderOfflineOnline"
+import SpendingCost from "../../components/ChartDashboard/SpendingCost/SpendingCost"
+import RecentTransaction from "../../components/ChartDashboard/RecentTransaction/RecentTransaction"
 
 const Dashboard = () => {
     const radialBarChart = [
@@ -82,6 +81,11 @@ const Dashboard = () => {
                     </div>
                     <div className="col-lg-5">
                         <OrderChart />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col">
+                        <RecentTransaction />
                     </div>
                 </div>
             </div>

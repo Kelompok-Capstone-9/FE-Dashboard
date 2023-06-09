@@ -1,9 +1,9 @@
-import DetailSpending from "./DetailSpending"
-import RadialBarChart from "./RadialSpendingCost"
-import img1 from "../../assets/img/cost1.svg"
-import img2 from "../../assets/img/cost2.svg"
-import img3 from "../../assets/img/cost3.svg"
-import img4 from "../../assets/img/cost4.svg"
+import DetailSpending from "../SpendingCost/DetailSpending"
+import RadialBarChart from "../SpendingCost/RadialSpendingCost"
+import img1 from "../../../assets/img/cost1.svg"
+import img2 from "../../../assets/img/cost2.svg"
+import img3 from "../../../assets/img/cost3.svg"
+import img4 from "../../../assets/img/cost4.svg"
 
 const SpendingCost = () => {
     const dataSpending = [

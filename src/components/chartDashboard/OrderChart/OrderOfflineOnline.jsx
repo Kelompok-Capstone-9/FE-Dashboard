@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import ReactApexChart from "react-apexcharts";
-import "./ChartDashboard.css";
 
 const OrderChart = () => {
     const [selectedOption, setSelectedOption] = useState('');

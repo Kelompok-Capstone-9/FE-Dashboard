@@ -71,8 +71,61 @@
     font-size: 12px;
 }
 
-.money {
+.SpendingCostMoney {
     font-weight: 600;
     font-size: 10px;
     color: var(--Danger-900);
+}
+
+.RecentTransaction {
+    padding: 16px;
+    width: 403px;
+    height: 428px;
+
+    background: var(--Neutral-White-0);
+    border-radius: 10px;
+}
+
+.textRecent {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #0B0B0B;
+}
+
+.AllTransaction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95px;
+    height: 28px;
+    background: #111111;
+    border-radius: 8px;
+}
+
+.ViewAll {
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.CostTransaction {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #0D6A50;
+}
+
+.CostMember {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #0B0B0B;
+}
+
+.CostDate {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #030303;
 }

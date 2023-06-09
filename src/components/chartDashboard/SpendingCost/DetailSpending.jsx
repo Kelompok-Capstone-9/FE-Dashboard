@@ -1,4 +1,5 @@
-import "./ChartDashboard.css";
+import "../../ChartDashboard/ChartDashboard.css";
+
 const DetailSpending = ({img, text1, text2}) => {
     return (
         <div className="DetailSpending" id="DetailSpending">
@@ -8,7 +9,7 @@ const DetailSpending = ({img, text1, text2}) => {
                 </div>
                 <div className="col-10">
                     <p className="textside mb-0">{text1}</p>
-                    <p className="money">{text2}</p>
+                    <p className="SpendingCostMoney">{text2}</p>
                 </div>
             </div>
         </div>
