@@ -45,11 +45,7 @@
 }
 
 .spendingCost {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     padding: 16px;
-
     width: 328px;
     height: 428px;
     background: var(--Neutral-White-0);
@@ -128,4 +124,88 @@
     font-size: 12px;
     line-height: 14px;
     color: #030303;
+}
+
+.IncomeDashboard {
+    width: 319px;
+    height: 208px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.area-chart-income .apexcharts-gridline {
+    stroke-opacity: 0 !important;
+}
+
+.area-chart-outcome .apexcharts-gridline {
+    stroke-opacity: 0 !important;
+}
+
+.area-chart-income .apexcharts-area {
+    stroke: var(--success-900) !important;
+}
+
+.area-chart-outcome .apexcharts-area {
+    stroke: var(--Danger-900) !important;
+}
+
+.detailIncome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 4px;
+    gap: 4px;
+    margin-left: 40%;
+    width: 106px;
+    height: 24px;
+    color: #0D6A50;
+    background: rgba(49, 190, 110, 0.4);
+    border-radius: 4px;
+}
+
+.OutcomeDashboard {
+    margin-top: 4%;
+    width: 319px;
+    height: 208px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.detailOutcome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 4px;
+    gap: 4px;
+    margin-left: 40%;
+    width: 106px;
+    height: 24px;
+    color: #7A1137;
+    background: rgba(219, 65, 81, 0.6);
+    border-radius: 4px;
+}
+
+.WalletBalance {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 0px;
+
+    width: 666px;
+    height: 386px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.detailWalletBalance {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 8px;
+
+    width: 172px;
+    height: 28px;
+    color: #0D6A50;
+    background: rgba(49, 190, 110, 0.4);
+    border-radius: 8px;
 }

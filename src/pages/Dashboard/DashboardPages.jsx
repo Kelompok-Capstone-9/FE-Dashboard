@@ -8,28 +8,31 @@ import dashboard4 from "../../assets/img/dashboard4.svg"
 import OrderChart from "../../components/ChartDashboard/OrderChart/OrderOfflineOnline"
 import SpendingCost from "../../components/ChartDashboard/SpendingCost/SpendingCost"
 import RecentTransaction from "../../components/ChartDashboard/RecentTransaction/RecentTransaction"
+import Income from "../../components/chartDashboard/IncomeOutcome/Income"
+import Outcome from "../../components/chartDashboard/IncomeOutcome/Outcome"
+import WalletBalance from "../../components/chartDashboard/WalletBalance/WalletBalance"
 
 const Dashboard = () => {
     const radialBarChart = [
-        { 
-            level: 'Beginner', 
-            series: [95], 
-            colorBackground:'#FFEFCC',
-            colorText:'#FF7F00'
+        {
+            level: 'Beginner',
+            series: [95],
+            colorBackground: '#FFEFCC',
+            colorText: '#FF7F00'
         },
-        { 
-            level: 'Intermediate', 
+        {
+            level: 'Intermediate',
             series: [70],
-            colorBackground:'#CCCCFF',
-            colorText:'#3F3FFF'
+            colorBackground: '#CCCCFF',
+            colorText: '#3F3FFF'
         },
-        { 
-            level: 'Advanced', 
+        {
+            level: 'Advanced',
             series: [73],
-            colorBackground:'#98F2FE',
-            colorText:'#00ACFC'
+            colorBackground: '#98F2FE',
+            colorText: '#00ACFC'
         },
-      ];
+    ];
     return (
         <>
             <div className="container dashboard">
@@ -77,15 +80,28 @@ const Dashboard = () => {
                 </div>
                 <div className="row">
                     <div className="col-lg-7">
-                        <SpendingCost />
+                        <WalletBalance />
                     </div>
                     <div className="col-lg-5">
                         <OrderChart />
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col">
-                        <RecentTransaction />
+                <div className="container">
+                    <div className="row mt-4 custom-row">
+                        <div className="col-lg-4 custom-col">
+                            <div className="row">
+                                <Income />
+                            </div>
+                            <div className="row">
+                                <Outcome />
+                            </div>
+                        </div>
+                        <div className="col-lg-4 custom-col">
+                            <SpendingCost />
+                        </div>
+                        <div className="col-lg-4 custom-col">
+                            <RecentTransaction />
+                        </div>
                     </div>
                 </div>
             </div>
