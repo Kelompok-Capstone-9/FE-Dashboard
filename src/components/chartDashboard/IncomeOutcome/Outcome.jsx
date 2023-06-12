@@ -80,8 +80,8 @@ const Outcome = () => {
                 options={options}
                 series={series}
                 type="area"
-                height={160}
-                width={310}
+                height={"100%"}
+                width={"100%"}
                 className="area-chart-outcome"
                 style={{ marginTop: "-20px" }}
             />

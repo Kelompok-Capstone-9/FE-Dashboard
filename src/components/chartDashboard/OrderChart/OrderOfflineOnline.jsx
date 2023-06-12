@@ -48,9 +48,9 @@ const OrderChart = () => {
 
     return (
         <>
-            <div className="orderChart">
+            <div className="orderChart" id="orderChart">
                 <div className="row">
-                    <div className="col-8">
+                    <div className="col-lg-8 col-sm-12">
                         <p className="textOrderChart">Application Order Chart</p>
                     </div>
                     <div className="col-4">
@@ -68,7 +68,7 @@ const OrderChart = () => {
                             options={options}
                             series={series}
                             type="pie"
-                            width={350}
+                            width={"100%"}
                         />
                     </div>
                 </div>

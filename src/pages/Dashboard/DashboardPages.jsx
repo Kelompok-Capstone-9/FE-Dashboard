@@ -78,17 +78,17 @@ const Dashboard = () => {
                         />
                     </div>
                 </div>
-                <div className="row mt-3">
-                    <div className="col-lg-7">
+                <div className="row mt-3 gx-0 gy-2">
+                    <div className="col-lg-7 col-md-12 col-sm-12">
                         <WalletBalance />
                     </div>
-                    <div className="col-lg-5" style={{paddingLeft:"4%"}}>
+                    <div className="col-lg-5 col-md-12 col-sm-12" style={{paddingLeft:"4%"}}>
                         <OrderChart />
                     </div>
                 </div>
                 <div className="container">
-                    <div className="row mt-4 custom-row">
-                        <div className="col-lg-4 custom-col">
+                    <div className="row mt-4 gx-4 gy-2">
+                        <div className="col-lg-4">
                             <div className="row">
                                 <Income />
                             </div>
@@ -96,10 +96,10 @@ const Dashboard = () => {
                                 <Outcome />
                             </div>
                         </div>
-                        <div className="col-lg-4 spending">
+                        <div className="col-lg-4">
                             <SpendingCost />
                         </div>
-                        <div className="col-lg-4 recent">
+                        <div className="col-lg-4">
                             <RecentTransaction />
                         </div>
                     </div>

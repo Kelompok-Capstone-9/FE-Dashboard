@@ -14,7 +14,7 @@ const WalletBalance = () => {
         xaxis: {
             categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
             axisBorder: {
-                show: false // Menghilangkan garis pada sumbu x
+                show: false
             },
             labels: {
                 style: {
@@ -41,7 +41,7 @@ const WalletBalance = () => {
                 colors: {
                     backgroundBarColors: ['#FFDB99'],
                     backgroundBarRadius: 15
-                  }
+                }
             }
         },
         dataLabels: {
@@ -61,30 +61,33 @@ const WalletBalance = () => {
 
 
     return (
-        <div className="WalletBalance mt-2" id="WalletBalance">
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                <span style={{ fontWeight: "600", fontSize: "20px" }}>Wallet Balance</span>
-                <div className="detailWalletBalance">
-                    <img src={ikon} alt="ikon" />
-                    <span style={{ fontWeight: "500", fontSize: "10px" }}>33,3% (Since last month)</span>
+            <div className="WalletBalance mt-2" id="WalletBalance">
+                <div className="row">
+                    <div className="col-lg-3">
+                        <span style={{ fontWeight: "600", fontSize: "20px" }}>Wallet Balance</span>
+                        <div>
+                            <span style={{ fontWeight: "600", fontSize: "16px" }}>Rp.</span>
+                            <span style={{ marginLeft: "5px", fontWeight: "600", fontSize: "32px" }}>500.000.000</span>
+                        </div>
+                    </div>
+                    <div className="col-lg-5">
+                    <div className="detailWalletBalance">
+                        <img src={ikon} alt="ikon" />
+                        <span style={{ fontWeight: "500", fontSize: "10px" }}>33,3% (Since last month)</span>
+                    </div>
+                    </div>
+                </div>
+                <div className="col-lg-12 col-sm-12" style={{ marginTop: "-2%" }}>
+                    <Chart
+                        options={options}
+                        series={series}
+                        type="bar"
+                        width={"100%"}
+                        height={"180%"}
+                        className="column-wallet-balance"
+                    />
                 </div>
             </div>
-            <div style={{ display: "flex", alignItems: "center", justifyContent: "flex-end" }}>
-                <span style={{ fontWeight: "600", fontSize: "16px" }}>Rp.</span>
-                <span style={{ marginLeft: "5px", fontWeight: "600", fontSize: "32px" }}>500.000.000</span>
-            </div>
-            <div style={{ marginTop: "-2%" }}>
-                <Chart
-                    options={options}
-                    series={series}
-                    type="bar"
-                    width={640}
-                    height={300}
-                    className="column-wallet-balance"
-                />
-            </div>
-        </div>
-
     )
 }
 

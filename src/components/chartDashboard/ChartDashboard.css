@@ -1,9 +1,8 @@
 .orderChart {
     padding: 16px 20px 24px;
-    gap: 24px;
     margin-top: 2%;
-    width: 403px;
-    height: 386px;
+    width: 100%;
+    height: 100%;
 
     background: var(--Neutral-White-0);
     border-radius: 10px;
@@ -46,8 +45,8 @@
 
 .spendingCost {
     padding: 16px;
-    width: 328px;
-    height: 428px;
+    width: 100%;
+    height: 100%;
     background: var(--Neutral-White-0);
     border-radius: 10px;
 }
@@ -75,9 +74,8 @@
 
 .RecentTransaction {
     padding: 16px;
-    width: 403px;
-    height: 428px;
-
+    width: 100%;
+    height: 100%;
     background: var(--Neutral-White-0);
     border-radius: 10px;
 }
@@ -127,8 +125,8 @@
 }
 
 .IncomeDashboard {
-    width: 319px;
-    height: 208px;
+    width: 100%;
+    height: 100%;
     background: #FFFFFF;
     border-radius: 10px;
 }
@@ -165,8 +163,8 @@
 
 .OutcomeDashboard {
     margin-top: 4%;
-    width: 319px;
-    height: 208px;
+    width: 100%;
+    height: 100%;
     background: #FFFFFF;
     border-radius: 10px;
 }
@@ -193,10 +191,10 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 16px 12px;
+    padding: 3vh 2vh;
 
-    width: 666px;
-    height: 386px;
+    width: 100%;
+    height: 100%;
     background: #FFFFFF;
     border-radius: 10px;
 }
@@ -206,10 +204,9 @@
     flex-direction: row;
     align-items: center;
     padding: 1vh 3vh;
-    gap: 4px;
-    margin-left: 55vh;
-    width: 172px;
-    height: 28px;
+    margin-left: 21vw;
+    width: 70%;
+    height: 40%;
     color: #0D6A50;
     background: rgba(49, 190, 110, 0.4);
     border-radius: 8px;
