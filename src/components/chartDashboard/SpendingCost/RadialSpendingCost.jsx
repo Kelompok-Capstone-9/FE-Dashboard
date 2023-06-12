@@ -43,7 +43,7 @@ const RadialBarChart = ({ backgroundColor, series }) => {
   };
 
   return (
-    <div className='radialBarCardDashboard' style={wrapperStyle}>
+    <div className='radialBarCardDashboard' id='radialBarCardDashboard' style={wrapperStyle}>
       <ReactApexChart options={dataSpending.options} series={dataSpending.series} type="radialBar" height={160} />
     </div>
   );

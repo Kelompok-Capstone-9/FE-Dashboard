@@ -32,8 +32,6 @@
     border-radius: 4px 4px 0px 0px;
 }
 
-/*  */
-
 .radialBarCardDashboard {
     display: flex;
     justify-content: center;
@@ -125,6 +123,7 @@
 }
 
 .IncomeDashboard {
+    /* margin-left: 3%; */
     width: 100%;
     height: 100%;
     background: #FFFFFF;
@@ -162,6 +161,7 @@
 }
 
 .OutcomeDashboard {
+    /* margin-left: 3%; */
     margin-top: 4%;
     width: 100%;
     height: 100%;
@@ -182,10 +182,6 @@
     background: rgba(219, 65, 81, 0.6);
     border-radius: 4px;
 }
-
-/* @media (max-width: 600px) {
-
-} */
 
 .WalletBalance {
     display: flex;

@@ -35,8 +35,8 @@ const Dashboard = () => {
     ];
     return (
         <>
-            <div className="container dashboard">
-                <div className="row gy-2 gx-1">
+            <div className="container dashboard" id="dashboard">
+                <div className="row gy-2 gx-2">
                     <div className="col-lg-3">
                         <CardDashboard
                             text1={"Net Profit"}
@@ -78,16 +78,16 @@ const Dashboard = () => {
                         />
                     </div>
                 </div>
-                <div className="row mt-3 gx-0 gy-2">
+                <div className="row mt-2 gx-2 gy-2">
                     <div className="col-lg-7 col-md-12 col-sm-12">
                         <WalletBalance />
                     </div>
-                    <div className="col-lg-5 col-md-12 col-sm-12" style={{paddingLeft:"4%"}}>
+                    <div className="col-lg-5 col-md-12 col-sm-12">
                         <OrderChart />
                     </div>
                 </div>
                 <div className="container">
-                    <div className="row mt-4 gx-4 gy-2">
+                    <div className="row mt-3 gx-4 gy-2">
                         <div className="col-lg-4">
                             <div className="row">
                                 <Income />

@@ -63,7 +63,7 @@ const Outcome = () => {
     ];
 
     return (
-        <div className="OutcomeDashboard">
+        <div className="OutcomeDashboard" id="OutcomeDashboard">
             <div style={{ display: "flex" }} className="mt-3">
                 <span style={{ fontWeight: "600", fontSize: "14px" }}>Outcome</span>
                 <div className="detailOutcome" style={{ marginLeft: "45%" }}>

@@ -63,7 +63,7 @@ const Income = () => {
     ];
 
     return (
-        <div className="IncomeDashboard">
+        <div className="IncomeDashboard" id="IncomeDashboard">
             <div style={{ display: "flex"}} className="mt-3">
                 <span style={{ fontWeight: "600", fontSize: "14px" }}>Income</span>
                 <div className="detailIncome" style={{marginLeft:"45%"}}>

@@ -3,14 +3,14 @@ const DataRecentTransaction = ({img, costTransaction, costMember, costDate, cost
     return (
         <div className="DataTransaction mt-1" id="DataTransaction">
             <div className="row">
-                <div className="col-sm-2 col-lg-2">
+                <div className="col-auto">
                     <img src={img} alt="" />
                 </div>
-                <div className="col-sm-7 col-lg-7">
+                <div className="col">
                      <span className="CostTransaction">{costTransaction}</span>
                      <p className="CostMember">{costMember}</p>
                 </div>
-                <div className="col-sm-3 col-lg-3">
+                <div className="col" style={{paddingLeft:"20%"}}>
                     <span className="CostDate">{costDate}</span>
                     <p className="CostDate">{costTime}</p>
                 </div>

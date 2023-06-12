@@ -26,7 +26,7 @@ const SpendingCost = () => {
     ]
 
     return (
-        <div className="spendingCost">
+        <div className="spendingCost" id="spendingCost">
             <p className="textSpendingCost">Spending Cost</p>
             <div className="row mb-3">
                 <div className="col-6">
