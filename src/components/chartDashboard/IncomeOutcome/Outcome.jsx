@@ -25,6 +25,9 @@ const Outcome = () => {
         },
         xaxis: {
             categories: ['1/2', '3/4', '5/6', '7/8', '9/10', '11/12'],
+            axisBorder: {
+                show: false
+            },
             labels: {
                 style: {
                     fontSize: '10px'
@@ -61,11 +64,11 @@ const Outcome = () => {
 
     return (
         <div className="OutcomeDashboard">
-            <div style={{ display: "flex"}} className="mt-3">
+            <div style={{ display: "flex" }} className="mt-3">
                 <span style={{ fontWeight: "600", fontSize: "14px" }}>Outcome</span>
-                <div className="detailOutcome" style={{marginLeft:"45%"}}>
+                <div className="detailOutcome" style={{ marginLeft: "45%" }}>
                     <img src={outcome} alt="outcome" />
-                    <span style={{ fontWeight: "500", fontSize: "10px"}}>-Rp 10.000.000</span>
+                    <span style={{ fontWeight: "500", fontSize: "10px" }}>-Rp 10.000.000</span>
                 </div>
             </div>
             <div style={{ display: "flex", alignItems: "center" }}>

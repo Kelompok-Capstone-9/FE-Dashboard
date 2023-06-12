@@ -1,9 +1,9 @@
 import "../Dashboard/Dashboard.css"
 import CardDashboard from "../../elements/Card/CardDashboard"
 import img from "../../assets/img/arrows_more_up.svg"
-import dashboard1 from "../../assets/img/dashboard1.svg"
-import dashboard2 from "../../assets/img/dashboard2.svg"
-import dashboard3 from "../../assets/img/dashboard3.svg"
+import dashboard1 from "../../assets/img/db1.svg"
+import dashboard2 from "../../assets/img/db2.svg"
+import dashboard3 from "../../assets/img/db1.svg"
 import dashboard4 from "../../assets/img/dashboard4.svg"
 import OrderChart from "../../components/ChartDashboard/OrderChart/OrderOfflineOnline"
 import SpendingCost from "../../components/ChartDashboard/SpendingCost/SpendingCost"
@@ -36,7 +36,7 @@ const Dashboard = () => {
     return (
         <>
             <div className="container dashboard">
-                <div className="row gy-2">
+                <div className="row gy-2 gx-1">
                     <div className="col-lg-3">
                         <CardDashboard
                             text1={"Net Profit"}
@@ -78,11 +78,11 @@ const Dashboard = () => {
                         />
                     </div>
                 </div>
-                <div className="row">
+                <div className="row mt-3">
                     <div className="col-lg-7">
                         <WalletBalance />
                     </div>
-                    <div className="col-lg-5">
+                    <div className="col-lg-5" style={{paddingLeft:"4%"}}>
                         <OrderChart />
                     </div>
                 </div>
@@ -96,10 +96,10 @@ const Dashboard = () => {
                                 <Outcome />
                             </div>
                         </div>
-                        <div className="col-lg-4 custom-col">
+                        <div className="col-lg-4 spending">
                             <SpendingCost />
                         </div>
-                        <div className="col-lg-4 custom-col">
+                        <div className="col-lg-4 recent">
                             <RecentTransaction />
                         </div>
                     </div>

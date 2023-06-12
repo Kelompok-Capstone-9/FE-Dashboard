@@ -5,11 +5,10 @@
     font-family: 'Josefin Sans', sans-serif
 }
 
-.custom-row {
-    margin-left: -3%;
-    margin-right: 1%;
+.spending {
+    margin-left: -4%;
 }
-.custom-col {
-    margin-left: 2%;
-    margin-right: -4%;
+
+.recent {
+    margin-left: -1%;
 }

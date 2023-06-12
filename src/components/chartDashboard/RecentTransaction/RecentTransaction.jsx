@@ -6,7 +6,7 @@ import outcome from "../../../assets/img/Outcome.svg"
 const RecentTransaction = () => {
     return (
         <div className="RecentTransaction" id="RecentTransaction">
-            <div className="row">
+            <div className="row mt-2">
                 <div className="col-lg-8">
                     <p className="textRecent">Recent Transaction</p>
                 </div>
