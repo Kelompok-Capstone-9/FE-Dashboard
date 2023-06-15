@@ -3,24 +3,21 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = [] 
 
 const classesSlice = createSlice({
-    name:'classes',
+    name:'onlineClass',
     initialState,
     reducers:{
-        addClassesFromApi: (state, action) => {
-            return (state = action.payload)
-        },
-        addClasses : (state, action) => {
+        addOnlineClass:(state, action) => {
             return [...state, action.payload]
         },
-        deleteClasses : (state, action) => {
-            return state.filter((classes) => classes.id !== action.payload)
+        updateOnlineClass:(state, action) => {
+            return  state = action.payload
         },
-        editClasses: (state, action) => {
-            return state.filter((classes) => classes.id !== action.payload)
+        deleteOnlineClass: (state, action) => {
+            return state.filter((data) => data.onlineClassId !== action.payload)
         }
     }
 })
 
-export const {addClasses, addClassesFromApi, deleteClasses, editClasses} = classesSlice.actions;
+export const {addOnlineClass, updateOnlineClass, deleteOnlineClass} = classesSlice.actions;
 
 export default classesSlice.reducer; 
