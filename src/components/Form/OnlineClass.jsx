@@ -11,7 +11,7 @@ import add from '../../assets/icons/add.svg'
 import { Row, Col } from "react-bootstrap";
 import moment from 'moment';
 import axios from "axios";
-import useAxios from "../../api/UseAxios";
+import useAxios from "../../api/customAxios";
 import { classApi } from "../../api/Api";
 import { useParams } from 'react-router-dom';
 

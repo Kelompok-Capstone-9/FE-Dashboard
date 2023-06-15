@@ -9,7 +9,7 @@ import AddLess from "../AddLess/AddLess";
 import { useDispatch } from "react-redux";
 import { addTraining } from "../../redux/Slice/trainingSlice";
 import { trainingApi } from '../../api/Api';
-import useAxios from '../../api/UseAxios';
+import useAxios from '../../api/customAxios';
 import { useNavigate, useParams } from 'react-router-dom';
 import axios from 'axios';
 import { getDownloadURL, ref, uploadBytesResumable } from 'firebase/storage';

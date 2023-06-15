@@ -7,7 +7,7 @@ import { useEffect, useState } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { addRecomended, deleteRecomended } from "../../redux/Slice/recomendedSlice"
 import { v4 as uuidv4 } from 'uuid';
-import useAxios from "../../api/UseAxios"
+import useAxios from "../../api/customAxios"
 import { trainingApi } from "../../api/Api"
 
 const Recomended = ({}) => {

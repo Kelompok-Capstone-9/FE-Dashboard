@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import Bar from "../../components/Chart/Bar";
 import { classApi, trainingApi } from "../../api/Api";
 import { useEffect, useState } from "react";
-import useAxios from "../../api/UseAxios";
+import useAxios from "../../api/customAxios"
 
 const ManageTraining = () => {
     const navigate = useNavigate()

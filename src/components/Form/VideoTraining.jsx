@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import Form from "../Modal/Form";
-import useAxios from "../../api/UseAxios";
+import useAxios from "../../api/customAxios";
 import { trainingApi } from "../../api/Api";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
 import video from '../../assets/icons/videocam_gray.svg'
