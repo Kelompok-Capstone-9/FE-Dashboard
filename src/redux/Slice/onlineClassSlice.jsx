@@ -7,7 +7,7 @@ const initialState = []
 //     error:null
 // }
 
-export const onlineClassSlice = createSlice({
+export const OnlineClassSlice = createSlice({
     name: 'onlineClass',
     initialState,
     reducers:{
@@ -33,6 +33,6 @@ export const onlineClassSlice = createSlice({
     }
 })
 
-export const {addOnlineClass, updateOnlineClass, deleteOnlineClass} = onlineClassSlice.actions
+export const {addOnlineClass, updateOnlineClass, deleteOnlineClass} = OnlineClassSlice.actions
 
-export default onlineClassSlice.reducer
+export default OnlineClassSlice.reducer
