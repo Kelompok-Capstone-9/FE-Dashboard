@@ -10,7 +10,7 @@ import useDebounce from "./useDebounce";
 
 */
 
-const useAxios = ({ api, method, url, body }) => {
+const useFetch = ({ api, method, url, body }) => {
   const [response, setResponse] = useState(null);
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(true);
@@ -36,4 +36,4 @@ const useAxios = ({ api, method, url, body }) => {
 
   return { response, error, isLoading };
 };
-export default useAxios;
+export default useFetch;

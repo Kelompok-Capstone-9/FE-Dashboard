@@ -4,9 +4,9 @@ import RadialBar from "../../components//Chart/RadialBar";
 import Recomended from "../../components/Recomended/Recomended";
 import { useNavigate } from "react-router-dom";
 import Bar from "../../components/Chart/Bar";
-import useAxios from "../../api/UseAxios";
 import { classApi, trainingApi } from "../../api/Api";
 import { useEffect, useState } from "react";
+import useAxios from "../../api/UseAxios";
 
 const ManageTraining = () => {
     const navigate = useNavigate()
