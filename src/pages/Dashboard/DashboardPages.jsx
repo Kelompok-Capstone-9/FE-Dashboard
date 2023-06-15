@@ -7,7 +7,7 @@ import dashboard3 from "../../assets/img/db1.svg"
 import dashboard4 from "../../assets/img/dashboard4.svg"
 import OrderChart from "../../components/chartDashboard/OrderChart/OrderOfflineOnline"
 import SpendingCost from "../../components/chartDashboard/SpendingCost/SpendingCost"
-import RecentTransaction from '../../components/chartDashboard/RecentTransaction'
+import Recent from "../../components/chartDashboard/RecentTransaction/Recent"
 import Income from '../../components/chartDashboard/IncomeOutcome/Income'
 import Outcome from "../../components/chartDashboard/IncomeOutcome/Outcome"
 import WalletBalance from "../../components/chartDashboard/WalletBalance/WalletBalance"
@@ -100,7 +100,7 @@ const Dashboard = () => {
                             <SpendingCost />
                         </div>
                         <div className="col-lg-4">
-                            <RecentTransaction />
+                            <Recent />
                         </div>
                     </div>
                 </div>

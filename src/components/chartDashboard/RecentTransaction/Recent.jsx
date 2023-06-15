@@ -3,7 +3,7 @@ import DataRecentTransaction from "./DataTransaction"
 import income from "../../../assets/img/Income.svg"
 import outcome from "../../../assets/img/Outcome.svg"
 
-const RecentTransaction = () => {
+const Recent = () => {
     return (
         <div className="RecentTransaction" id="RecentTransaction">
             <div className="row mt-2">
@@ -38,4 +38,4 @@ const RecentTransaction = () => {
     )
 }
 
-export default RecentTransaction
+export default Recent
